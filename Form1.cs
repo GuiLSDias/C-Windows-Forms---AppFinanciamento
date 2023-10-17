@@ -54,7 +54,7 @@ namespace AppFinanciamento
             double valorTotalJuros = valorTotalPago - principal;
 
             ValorParcelaLbl.Text = $"Valor da Parcela: R$ {valorParcela:N2}";
-            ValorTotalPagoLbl.Text = $"Valor Total a Ser Pago: R$ {valorTotalPago:N2}";
+            ValorTotalPagoLbl.Text = $"Valor Total: R$ {valorTotalPago:N2}";
             ValorTotalJurosLbl.Text = $"Valor Total dos Juros: R$ {valorTotalJuros:N2}";
 
         }
